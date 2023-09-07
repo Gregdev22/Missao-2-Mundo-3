@@ -243,66 +243,54 @@ group by produto.nome;
 <h1>Análise e Conclusão</h1>
 <ul>
    <li>
-      Quais as vantagens e desvantagens do uso de herança?
+      Como são implementadas as diferentes cardinalidades, basicamente 1X1, 1XN ou NxN, em um banco de dados relacional? 
       <p> 
-        <h4> <strong>Vantagens: </strong></h4>
-         1. Classes podem herdar características(métodos e atributos) de outras classes situadas acima ou transmitir suas características às classes abaixo;
-         <br>
-         2. Evita repetir o mesmo código várias vezes;
-         <br>
-         3. Caso uma alteração seja necessária, ela só precisará ser feita na classe pai, e será automaticamente propagada para as subclasses.
-         <br>
-          <h4><strong> Desvantagens:</strong> </h4>
-         1. Fraco encapsulamento entre classes e subclasses e o forte acoplamento entre elas onde ao mudar uma superclasse pode afetar todas as subclasses;
-         <br>
-         2. Quando um objeto precisa ser de uma classe diferente em momentos diferentes e não é possível com a herança.
-         <br>
+        <h4> Atraves dos graus de relação que entidades ou tabelas têm entre si </h4>         
       </p>
    </li>
              
    <li>
-      Por que a interface Serializable é necessária ao efetuar persistência em arquivos binários?
+     Que tipo de relacionamento deve ser utilizado para representar o uso de herança em bancos de dados relacionais? 
       <p> 
-         Essa interface permite que os objetos sejam serializados(convertidos em uma sequência de bytes) e
-desserializados com a conversão de volta à um objeto.
+         1x1
       </p>
    </li>
    
    <li>
-      Como o paradigma funcional é utilizado pela API stream no Java?
+     Como o SQL Server Management Studio permite a melhoria da produtividade nas tarefas relacionadas ao gerenciamento do banco de dados? 
       <p> 
-         A API stream é usada para manipular coleções (Collections) de uma maneira mais eficiente, utilizando funções.Ela possibilita uma iteração sobre essas coleções de objetos e, a cada elemento, realizar alguma ação, seja ela de filtragem, mapeamento, transformação, etc.
+        Atraves de um editor de consultas, monitoramento de desempenho e segurança e gerenciamento de permissões.
       </p>
    </li>
    
    <li>
-      Quando trabalhamos com Java, qual padrão de desenvolvimento é adotado na persistência de dados em
-arquivos?
+      Quais as diferenças no uso de sequence e identity? 
       <p> 
-        Nesse projeto foram utilizadas a classe ObjectOutputStream para escrever objetos em um arquivo "[prefixo].fisica.bin e [prefixo].juridica.bin"
-e a classe ObjectInputStream para ler os objetos dos mesmos arquivos.
+        AS SEQUENCES são acionadas sempre quando forem necessárias, sem dependência de tabelas e campos no banco, onde pode ser chamada diretamente por aplicativos. AS SEQUENCES, nós podemos obter o novo valor antes de usá-lo em um comando, diferente do IDENTITY, onde não podemos obter um novo valor. Além disso, com o IDENTITY não podemos gerar novos valores em uma instrução UPDATE, enquanto que com SEQUENCE, já podemos. Com SEQUENCES, podemos definir valores máximos e mínimos, além de termos a possibilidade de informar que a mesma irá trabalhar de forma cíclica e com cache, além de podemos obter mais valores em sequencia de um só vez, utilizando para isso a procedure SP_SEQUENCE_GET_RANGE, onde então é permitido atribuirmos os valores individuais para aumentar então o desempenho no uso da SEQUENCE. Uma das grandes utilidades em IDENTITY está no fato de podermos trabalhar com o mesmo na utilização de TRANSAÇÕES de INSERT, pois, só iremos gerar um próximo valor a partir do momento que o comando for executado, ou seja, que a transação for aceita, ao contrário de uma SEQUENCE, que uma vez chamado seu próximo valor, mesmo que ocorra um erro de transação, o valor é alterado.
       </p>
    </li>
 
    <li>
-      O que são elementos estáticos e qual o motivo para o método main adotar esse 
-modificador?
+      Qual a importância das chaves estrangerias para a consistência do banco? 
       <p> 
-         Os elementos estáticos são elementos que "existem", ou seja, estão disponíveis para uso, sem a necessidade de serem instânciados. Podem ser utilizados em código sem a necessidade de existirem objetos produzidos (sem a necessidade de um comando "new Classe()").
+         A utilização da chave estrangeira possibilita a implementação da integridade de dados diretamente no banco de dados, conhecida como integridade referencial. Uma chave estrangeira é a representação de um relacionamento entre tabelas.
       </p>
    </li>
 
    <li>
-      Para que serve a classe Scanner ?
+     Quais operadores do SQL pertencem à álgebra relacional e quais são definidos no cálculo relacional?
       <p> 
-         Para leitura de dados de entrada (inteiros, boolean, string, etc) inseridos pelo ususario atraves do teclado. 
+         <h3>Operadores do SQL pertencem à álgebra relacional: </h3> 
+	SELEÇÃO, RESTRIÇÃO, PROJEÇÃO, UNIÃO, INTERSECÇÃO, DIFERENÇA DE CONJUNTOS, PRODUTO CARTESIANO, JUNÇÃO, DIVISÃO, RENOMEAÇÃO, ATRIBUIÇÃO; 
+	 <h3>Operadores do SQL pertencem AO cálculo relacional: </h3>     	
+	Igual, diferente, maior, menor, maior ou igual, menor ou igual. 
       </p>
    </li>
 
    <li>
-      Como o uso de classes de repositório impactou na organização do código?
+      Como é feito o agrupamento em consultas, e qual requisito é obrigatório? 
       <p> 
-        As classes de repositórios serviram para gerenciar,centralizar e organizar as atividades de inserir, excluir, alterar, localizar, recuperar e salvar os dados de pessoa física e jurídica. 
+       O agrupamento em consultas É FEITO UTILIZANDO O “GRUPO BY”.  
       </p>
    </li>
 </ul>
