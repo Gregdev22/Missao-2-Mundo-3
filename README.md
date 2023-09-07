@@ -7,7 +7,7 @@
      <hr>
 </div> 
 
-* DESENVOLVIMENTO FULL STACK- TURMA 23.3 9003
+* DESENVOLVIMENTO FULL STACK- TURMA 23.3 -9003
 * Disciplina: RPG0015  - Vamos Manter as Informações?
 * Semestre Letivo: 2023.2
 * Repositorio Git: https://github.com/Gregdev22/Missao-2-Mundo-3
