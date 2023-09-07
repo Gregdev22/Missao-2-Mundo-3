@@ -213,8 +213,13 @@ group by produto.nome;
 
 <h1>Resultados: </h1>
 :triangular_flag_on_post: Procedimento 1: 
- <img src="https://github.com/Gregdev22/Missao-1-Mundo-3/blob/main/Captura%20de%20tela%202023-08-23%20053634.png" alt="resultado 1" width="320" height="320">
-
+<h2>Modelo</h2>
+ <img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%201/Modelo%20procedimento%201.png" alt="resultado 1" width="640" height="640">
+<h2> Banco e Tabelas </h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%201/Proc%201%20tabelas.png" alt="resultado 1" width="640" height="480">
+<h2> Usuario/Logon Loja </h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%201/Proc%201%203a.png" alt="resultado 1" width="640" height="480">
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%201/Proc%201%203b.png" alt="resultado 1" width="640" height="480">
 <br>
 
 :triangular_flag_on_post:Procedimento 2: https://github.com/Gregdev22/Missao-1-Mundo-3/blob/main/cadastro-clientes-2x-feito-com-o-clipchamp_KcvO1kpf.mp4
