@@ -38,9 +38,9 @@ do SQL Server
 
 <h2> Códigos </h2>
 
-[Procedimento 1: Criação das Entidades e Sistema de Persistência](https://github.com/Gregdev22/Missao-1-Mundo-3/tree/main/CadastroPOO)
+[Procedimento 1: Criando o Banco de Dados](https://github.com/Gregdev22/Missao-2-Mundo-3/tree/main/Procedimento%201)
 
-[Procedimento 2: Criação do Cadastro em Modo Texto](https://github.com/Gregdev22/Missao-1-Mundo-3/tree/main/CadastroPOO2)
+[Procedimento 2: Alimentando a Base](https://github.com/Gregdev22/Missao-2-Mundo-3/tree/main/Procedimento%202)
 
 <hr>
 <h1>Entidades:</h1>
