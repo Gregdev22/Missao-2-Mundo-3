@@ -7,20 +7,20 @@
      <hr>
 </div> 
 
-* DESENVOLVIMENTO FULL STACK- TURMA 23.3
-* Disciplina: RPG0014  - Iniciando o caminho pelo Java
+* DESENVOLVIMENTO FULL STACK- TURMA 23.3 - 9003
+* Disciplina: RPG0015  - Vamos Manter as Informações?
 * Semestre Letivo: 2023.2
-* Repositorio Git: https://github.com/Gregdev22/Missao-1-Mundo-3
+* Repositorio Git: https://github.com/Gregdev22/Missao-2-Mundo-3
 
 <hr>
 
 * [EMERSON GREGORIO ALVES](https://github.com/Gregdev22) - MATRICULA: 2022.0908.4986
 <hr>
- <h1 align="center"> Missão Prática | Nível 1 | Mundo 3 </h1>
- <h2 align="left" > Implementação de um cadastro de clientes em modo texto, com persistência
-em arquivos, baseado na tecnologia Java. </h2> 
- <h3>Procedimento 1: Criação das Entidades e Sistema de Persistência </h3>
- <h3>Procedimento 2: Criação do Cadastro em Modo Texto </h3>
+ <h1 align="center"> Missão Prática | Nível 2 | Mundo 3 </h1>
+ <h2 align="left" > Modelagem e implementação de um banco de dados simples, utilizando como base o SQL
+Server. </h2> 
+ <h3>Procedimento 1: Criando o Banco de Dados </h3>
+ <h3>Procedimento 2: Alimentando a Base </h3>
  
  <hr>
 
