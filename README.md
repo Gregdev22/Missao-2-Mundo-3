@@ -27,12 +27,13 @@ Server. </h2>
 
  <h2> :clipboard: Objetivos da Prática </h2>
 
-* Utilizar herança e polimorfismo na definição de entidades.
-* Utilizar persistência de objetos em arquivos binários.
-* Implementar uma interface cadastral em modo texto.
-* Utilizar o controle de exceções da plataforma Java.
-* No final do projeto, o aluno terá implementado um sistema cadastral em Java, utilizando os recursos da
-* programação orientada a objetos e a persistência em arquivos binários.
+* Identificar os requisitos de um sistema e transformá-los no modelo adequado.
+* Utilizar ferramentas de modelagem para bases de dados relacionais.
+* Explorar a sintaxe SQL na criação das estruturas do banco (DDL).
+* Explorar a sintaxe SQL na consulta e manipulação de dados (DML).
+* No final do exercício, o aluno terá vivenciado a experiência de modelar a base de dados
+para um sistema simples, além de implementá-la, através da sintaxe SQL, na plataforma
+do SQL Server
 
 
 <h2> Códigos </h2>
