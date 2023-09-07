@@ -222,9 +222,23 @@ group by produto.nome;
 <img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%201/Proc%201%203b.png" alt="resultado 1" width="640" height="480">
 <br>
 
-:triangular_flag_on_post:Procedimento 2: https://github.com/Gregdev22/Missao-1-Mundo-3/blob/main/cadastro-clientes-2x-feito-com-o-clipchamp_KcvO1kpf.mp4
-
-https://github.com/Gregdev22/Missao-1-Mundo-3/assets/103840468/16647a6f-122e-4a3c-8cc8-e61cdcde2050
+:triangular_flag_on_post:Procedimento 2: 
+<h2>Usuarios</h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%201b.png" alt="resultado 1" width="480" height="320">
+<h2>Produtos</h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%201c.png" alt="resultado 1" width="480" height="320">
+<h2>Movimentos</h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%203.png" alt="resultado 1" width="480" height="320">
+<h2> Dados completos de pessoas físicas e juridicas </h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%202c%202d.png" alt="resultado 1" width="480" height="320">
+<h2> Movimentações de entrada e saida, com produto, comprador, fornecedor, quantidade, preço unitário e valor total </h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%204c%204d.png" alt="resultado 1" width="640" height="320">
+<h2> Valor total das entradas e saidas agrupadas por produto</h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%204e%204f.png" alt="resultado 1" width="640" height="320">
+<h2> Operadores que não efetuaram movimentações de entrada (compra).Valor total de entrada e saida agrupado por operador </h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%204g%204h%204i.png" alt="resultado 1" width="640" height="320">
+<h2> Valor médio de venda por produto, utilizando média ponderada </h2>
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%204j.png" alt="resultado 1" width="640" height="320">
 <hr>
 <h1>Análise e Conclusão</h1>
 <ul>
