@@ -56,16 +56,16 @@ create table pessoa(
 primary key(idpessoa));
 
 create table pessoa_fisica (
-  idpessoa_fisica int NOT NULL,
+ idpessoa int NOT NULL,
   cpf varchar(255)  NOT NULL,
-  primary key (idpessoa_fisica),
-  constraint idpessoa foreign key (idpessoa_fisica) references pessoa(idpessoa));
+  primary key (idpessoa),
+  foreign key (idpessoa) references pessoa(idpessoa));
 
 create table pessoa_juridica (
-  idpessoa_juridica int NOT NULL,
+  idpessoa int NOT NULL,
   cnpj varchar(255)  NOT NULL,
-  primary key (idpessoa_juridica),
-  constraint idpessoa_juridica foreign key (idpessoa_juridica) references pessoa(idpessoa));
+  primary key (idpessoa),
+  foreign key (idpessoa) references pessoa(idpessoa));
 
 create table produto (
   idproduto int NOT NULL  ,
