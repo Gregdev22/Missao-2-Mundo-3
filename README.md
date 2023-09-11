@@ -230,7 +230,7 @@ group by produto.nome;
 <h2>Movimentos</h2>
 <img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%203.png" alt="resultado 1" width="480" height="320">
 <h2> Dados completos de pessoas físicas e juridicas </h2>
-<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%202c%202d.png" alt="resultado 1" width="480" height="320">
+<img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/dados%20completos%20de%20pf%20e%20pj.png" alt="resultado 1" width="480" height="320">
 <h2> Movimentações de entrada e saida, com produto, comprador, fornecedor, quantidade, preço unitário e valor total </h2>
 <img src="https://github.com/Gregdev22/Missao-2-Mundo-3/blob/main/Procedimento%202/Proc%202%204c%204d.png" alt="resultado 1" width="640" height="320">
 <h2> Valor total das entradas e saidas agrupadas por produto</h2>
