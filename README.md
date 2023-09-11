@@ -134,12 +134,12 @@ values (1,1,1,1,20,'S',4.00),
 -- Dados completos de pessoas físicas.
 select *
 from pessoa, pessoa_fisica
-where pessoa.idpessoa = pessoa_fisica.idpessoa_fisica;
+where pessoa.idpessoa = pessoa_fisica.idpessoa;
 
 --Dados completos de pessoas jurídicas.
 select *
 from pessoa, pessoa_juridica
-where pessoa.idpessoa = pessoa_juridica.idpessoa_juridica;
+where pessoa.idpessoa = pessoa_juridica.idpessoa;
 
 --Movimentações de entrada, com produto, fornecedor, quantidade, preço unitário e valor total.
 select idmovimento, produto_idproduto, produto.nome as 'Produto',pessoa_idpessoa, pessoa.nome as 'Fornecedor', movimento.quantidade, valorUnitario,
